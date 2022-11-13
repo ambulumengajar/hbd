@@ -1,0 +1,17 @@
+@import "compass/css3";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+}

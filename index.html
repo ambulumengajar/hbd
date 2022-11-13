@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/hbd.css">
+    <link rel="stylesheet" href="./assets/css/api.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>🎁 HBD</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="photo" style="display: none;">
+        <div class="image">
+            <img src="https://i.postimg.cc/8zxYn2xG/FB-IMG-16354292315443416.jpg" alt="gambar_panda" class="ft">
+        </div>
+        <p id="namamu"></p>
+    </div>
+
+    <div id="content" style="display: none;">
+        <p id="text-isi"></p>
+        <p id="text-author"></p>
+    </div>
+    <!-- <audio autoplay src="./assets/lagu/hbd.mp3"></audio> -->
+
+
+    <!-- scrip -->
+    <script src="./assets/js/script.js"></script>
+    <script type="text/javascript">
+        var nama = 'Dear Salsabila F';
+        var swals = Swal
+
+
+        async function namaKenalan() {
+            textAuthor = "Wish You All The Best";
+            textNamamu = "Hallo " + nama;
+            await swals.fire(`Hai ${nama} Selamat Ulang Tahun Ke-21`);
+            ketiknamamu(); display();
+        }
+        play();
+        namaKenalan();
+    </script>
+    <script type="text/javascript">
+        var d = 0, textNamamu;
+        var i = 0, text;
+        text = "Happy Birthday " + nama + ". yang ke-21. Semoga panjang umur, sehat selalu, diberikan kemudahaan dan kelancaran dalam perkuliahaan dan segala urusan, serta dilancarkan rezekinya. Semoga apa yang kamu inginkan bisa tercapai. Jika tidak terwujud, kamu bisa menerima dengan lapang dada meskipun sudah kamu rencanakan dengan baik. Tetap Semangat " + nama +" :)"
+        var x = 0, textAuthor;
+    </script>
+    <script src="./assets/js/api.js"></script>
+</body>
+
+</html>

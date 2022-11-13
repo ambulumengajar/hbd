@@ -1,0 +1,80 @@
+body{
+    background-color: #333132;
+}
+
+/* navbar */
+.navbar-nav .nav-item a{
+    color: white;
+}
+
+.navbar-nav .nav-item a.active{
+    color: #0A970D;
+}
+/* end navbar */
+
+/* about */
+.about-title{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -200px;
+    font-size: 100px;
+    z-index: -999;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.05;
+    transform: rotate(-90deg);
+}
+
+.nama-profil{
+    color: #0A970D;
+}
+
+.sosmed .email{
+    background-color: #0A970D;
+}
+
+img.mypicture{
+    margin-top: -3rem;
+}
+
+.icons{
+    position: relative;
+    z-index: -999;
+}
+
+.icons .icon1{
+    margin-top: -5rem;
+    margin-left: 7rem;
+    transform: rotate(30deg);
+    filter: blur(2px);
+    -webkit-animation: rotation 20s infinite linear;
+}
+
+.icons .icon2{
+    margin-top: -28rem;
+    margin-left: 7rem;
+    transform: rotate(30deg);
+    filter: blur(1px);
+}
+.icons .icon3{
+    margin-top: -45rem;
+    margin-left: 13rem;
+    filter: blur(0.3px);
+    -webkit-animation: rotation 15s infinite linear;
+}
+
+img.img-projek{
+    max-width: 50rem;
+}
+/* end about */
+
+@-webkit-keyframes rotation {
+    from { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(359deg); }
+}
+
+@media screen and (max-width:680px){
+
+	img.img-projek{
+        max-width: 20rem;
+    }
+}
